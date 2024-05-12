@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
   "name": "Shopify Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy"
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
 //   "features": {
 //   },
 //   "customizations": {
@@ -22,7 +22,7 @@
   //"initializeCommand": "python3 .devcontainer/forwarder.py verbose &",
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postStartCommand": "bash ./dev-container-setup-script.sh; "
+  "postStartCommand": "bash ./dev-container-setup-script.sh; "
 
 
   // Configure tool-specific properties.
