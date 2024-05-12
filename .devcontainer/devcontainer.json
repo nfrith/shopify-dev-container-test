@@ -22,7 +22,8 @@
   //"initializeCommand": "python3 .devcontainer/forwarder.py verbose &",
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "uname -a",
+  // "postStartCommand": "bash ./dev-container-setup-script.sh; "
+
 
   // Configure tool-specific properties.
   // "customizations": {},
